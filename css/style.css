@@ -1215,7 +1215,8 @@ a.button, .span3, .span2 {
   cursor: pointer; }
 
 body {
-  display: block; }
+  display: block;
+  background-color: #f4c215; }
 
 .span2:focus ~ .alert {
   display: block; }
