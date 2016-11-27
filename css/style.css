@@ -510,8 +510,11 @@ Content
 
 .content-area {
   padding-top: 70px;
-  background-color: #225270;
-  color: white; }
+  height: auto;
+  color: white;
+  float: left;
+  clear: both;
+  width: 100%; }
 
 .error404 .content-area,
 .page .content-area {
@@ -575,6 +578,11 @@ Content
     margin: 20px auto 0; }
   .entry-title:hover {
     opacity: 0.7; }
+
+div.home {
+  background: url("../images/bg_river.jpg") no-repeat transparent;
+  width: 100%;
+  height: 1080px; }
 
 .home .entry-content {
   margin: 1.5em 0; }
@@ -1108,6 +1116,9 @@ pre {
     padding-right: 5px; } }
 
 /* obvious editions relating to images */
+body {
+  font-size: 19px; }
+
 .sa_logo_color {
   width: 100%;
   height: 120px;
@@ -1130,6 +1141,7 @@ pre {
   height: 300px;
   float: left;
   clear: both;
+  background-color: #225270;
   margin-bottom: 40%;
   text-align: center; }
 
@@ -1201,6 +1213,11 @@ div.philosphy_img_placeholder {
   width: 200px;
   height: 200px;
   border: solid white .25em; }
+
+.bg_river {
+  background: url("../images/bg_river.jpg") no-repeat transparent;
+  width: 100%;
+  height: 1080px; }
 
 /* cat button */
 a.button, .span3, .span2 {
