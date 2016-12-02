@@ -1096,6 +1096,10 @@ pre {
     width: auto;
     margin-bottom: 50px; } }
 
+@media screen and (max-width: 390px) {
+  p {
+    line-height: 1; } }
+
 @media screen and (max-width: 320px) {
   .site-header,
   .page .site-header,
